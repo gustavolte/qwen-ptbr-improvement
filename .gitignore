@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Checkpoints e pesos de modelo (não versionar binários grandes)
+*.safetensors
+*.bin
+*.gguf
+qwen-ptbr-checkpoints/
+qwen3.5-2.8b-qlora-ptbr/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tokens e segredos (NUNCA versionar)
+.env
+*.env
